@@ -1,0 +1,121 @@
+{
+  "id": "16ff03a8-efac-4fe3-aa54-3fd541fc405a",
+  "version": "2.0",
+  "name": "demoblaze-automation",
+  "url": "https://www.demoblaze.com",
+  "tests": [{
+    "id": "ea391bb3-88be-4444-a0ca-74e1284578e5",
+    "name": "Log In",
+    "commands": [{
+      "id": "ddb6b79a-7bcb-4a67-8cfc-5aa86a3d6105",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9fabc80-ebb9-4496-9db5-b2a5594a7051",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cdad34b-c696-4b6a-afe1-e86c52a525dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=login2",
+      "targets": [
+        ["id=login2", "id"],
+        ["linkText=Log in", "linkText"],
+        ["css=#login2", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[@id='login2']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7172c76-2aa9-48d5-bc3e-d1568b4db17e",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginusername",
+      "targets": [
+        ["id=loginusername", "id"],
+        ["css=#loginusername", "css:finder"],
+        ["xpath=//input[@id='loginusername']", "xpath:attributes"],
+        ["xpath=//div[@id='logInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8943d11c-e793-407d-b495-23bbf557121b",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginusername",
+      "targets": [
+        ["id=loginusername", "id"],
+        ["css=#loginusername", "css:finder"],
+        ["xpath=//input[@id='loginusername']", "xpath:attributes"],
+        ["xpath=//div[@id='logInModal']/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "test-qa"
+    }, {
+      "id": "2578b4de-318a-4562-a3c3-387f00fb0ccd",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginpassword",
+      "targets": [
+        ["id=loginpassword", "id"],
+        ["css=#loginpassword", "css:finder"],
+        ["xpath=//input[@id='loginpassword']", "xpath:attributes"],
+        ["xpath=//div[@id='logInModal']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "test-qa"
+    }, {
+      "id": "ff76666e-adee-426d-be3f-d5b4e2714f80",
+      "comment": "",
+      "command": "click",
+      "target": "css=#logInModal .btn-primary",
+      "targets": [
+        ["css=#logInModal .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='logInModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91e80a4b-25e9-44f6-815a-26ceb5582da3",
+      "comment": "",
+      "command": "click",
+      "target": "id=nameofuser",
+      "targets": [
+        ["id=nameofuser", "id"],
+        ["linkText=Welcome test-qa", "linkText"],
+        ["css=#nameofuser", "css:finder"],
+        ["xpath=//a[contains(text(),'Welcome test-qa')]", "xpath:link"],
+        ["xpath=//a[@id='nameofuser']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarExample']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Welcome test-qa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "089c0da8-f332-4dd6-ba39-485aaa11a7bc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ea391bb3-88be-4444-a0ca-74e1284578e5"]
+  }],
+  "urls": ["https://www.demoblaze.com/"],
+  "plugins": []
+}
