@@ -107,6 +107,185 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "3cf30e1c-82ad-459f-af94-a50edf9d7312",
+    "name": "Browse Phones, Laptops and Monitors",
+    "commands": [{
+      "id": "04afe8ac-9fd1-427c-8bc8-14aa1ad9ee3a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc13e372-c109-4b9e-b97e-66b32acba27e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "966686f0-7669-451d-9e57-617c85096813",
+      "comment": "",
+      "command": "click",
+      "target": "id=itemc",
+      "targets": [
+        ["id=itemc", "id"],
+        ["linkText=Phones", "linkText"],
+        ["xpath=//a[contains(text(),'Phones')]", "xpath:link"],
+        ["xpath=//a[@id='itemc']", "xpath:attributes"],
+        ["xpath=//div[@id='contcont']/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Phones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a706147f-a289-4edb-82cb-59720d12e387",
+      "comment": "",
+      "command": "click",
+      "target": "id=next2",
+      "targets": [
+        ["id=next2", "id"],
+        ["css=#next2", "css:finder"],
+        ["xpath=//button[@id='next2']", "xpath:attributes"],
+        ["xpath=//form[@id='frm']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f18c560-0a36-411c-ad57-6e8c32ff26f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=prev2",
+      "targets": [
+        ["id=prev2", "id"],
+        ["css=#prev2", "css:finder"],
+        ["xpath=//button[@id='prev2']", "xpath:attributes"],
+        ["xpath=//form[@id='frm']/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Previous')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f580923a-8f68-4ee2-a7a4-29e099223e42",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptops",
+      "targets": [
+        ["linkText=Laptops", "linkText"],
+        ["xpath=//a[contains(text(),'Laptops')]", "xpath:link"],
+        ["xpath=(//a[@id='itemc'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='contcont']/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f79553d-4c99-43f3-9a2b-1b03229b65dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=next2",
+      "targets": [
+        ["id=next2", "id"],
+        ["css=#next2", "css:finder"],
+        ["xpath=//button[@id='next2']", "xpath:attributes"],
+        ["xpath=//form[@id='frm']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "298e173c-87ba-44ac-823d-2025908e78ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=prev2",
+      "targets": [
+        ["id=prev2", "id"],
+        ["css=#prev2", "css:finder"],
+        ["xpath=//button[@id='prev2']", "xpath:attributes"],
+        ["xpath=//form[@id='frm']/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Previous')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "705dd643-4172-43eb-9305-f006e39f8ef9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Monitors",
+      "targets": [
+        ["linkText=Monitors", "linkText"],
+        ["xpath=//a[contains(text(),'Monitors')]", "xpath:link"],
+        ["xpath=(//a[@id='itemc'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='contcont']/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Monitors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d1ff9bc-1a0a-4efd-a4e3-7f8f7cf0704e",
+      "comment": "",
+      "command": "click",
+      "target": "id=next2",
+      "targets": [
+        ["id=next2", "id"],
+        ["css=#next2", "css:finder"],
+        ["xpath=//button[@id='next2']", "xpath:attributes"],
+        ["xpath=//form[@id='frm']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb732347-29fa-4d35-b21c-b6d439d3d98d",
+      "comment": "",
+      "command": "click",
+      "target": "id=prev2",
+      "targets": [
+        ["id=prev2", "id"],
+        ["css=#prev2", "css:finder"],
+        ["xpath=//button[@id='prev2']", "xpath:attributes"],
+        ["xpath=//form[@id='frm']/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Previous')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "289306b1-9566-44f7-a715-e7452e747a84",
+      "comment": "",
+      "command": "click",
+      "target": "id=itemc",
+      "targets": [
+        ["id=itemc", "id"],
+        ["linkText=Phones", "linkText"],
+        ["xpath=//a[contains(text(),'Phones')]", "xpath:link"],
+        ["xpath=//a[@id='itemc']", "xpath:attributes"],
+        ["xpath=//div[@id='contcont']/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Phones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe5a0c8f-22fe-4a5b-ac80-44bed54ece26",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Samsung galaxy s6",
+      "targets": [
+        ["linkText=Samsung galaxy s6", "linkText"],
+        ["css=.col-lg-4:nth-child(1) .hrefch", "css:finder"],
+        ["xpath=//a[contains(text(),'Samsung galaxy s6')]", "xpath:link"],
+        ["xpath=//div[@id='tbodyid']/div/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'prod.html?idp_=1')])[2]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Samsung galaxy s6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "089c0da8-f332-4dd6-ba39-485aaa11a7bc",
