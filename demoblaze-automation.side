@@ -286,6 +286,108 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "36e4ae60-5824-4a85-991d-1bf8269e9e70",
+    "name": "Browse Laptop and Monitor",
+    "commands": [{
+      "id": "22cb9898-ac75-4a87-8159-9667e8def38c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "238086d7-8347-4747-a0b3-adbaa6a99a43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47619c70-32b5-444b-9387-35294210a606",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Laptops",
+      "targets": [
+        ["linkText=Laptops", "linkText"],
+        ["xpath=//a[contains(text(),'Laptops')]", "xpath:link"],
+        ["xpath=(//a[@id='itemc'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='contcont']/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Laptops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60b871a2-2d85-4558-b0e1-ef1c56031c34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sony vaio i5",
+      "targets": [
+        ["linkText=Sony vaio i5", "linkText"],
+        ["css=.col-lg-4:nth-child(1) .hrefch", "css:finder"],
+        ["xpath=//a[contains(text(),'Sony vaio i5')]", "xpath:link"],
+        ["xpath=//div[@id='tbodyid']/div/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'prod.html?idp_=8')])[2]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sony vaio i5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcb434f0-7a62-40b3-acf1-0fd69590059e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .nav-link",
+      "targets": [
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarExample']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'index.html')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65aeb47-821d-45ac-9926-3267bc59352d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Monitors",
+      "targets": [
+        ["linkText=Monitors", "linkText"],
+        ["xpath=//a[contains(text(),'Monitors')]", "xpath:link"],
+        ["xpath=(//a[@id='itemc'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='contcont']/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[11]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Monitors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d98e8a-4e91-4a2a-a45d-739920a2d409",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ASUS Full HD",
+      "targets": [
+        ["linkText=ASUS Full HD", "linkText"],
+        ["css=.col-lg-4:nth-child(2) .hrefch", "css:finder"],
+        ["xpath=//a[contains(text(),'ASUS Full HD')]", "xpath:link"],
+        ["xpath=//div[@id='tbodyid']/div[2]/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'prod.html?idp_=14')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ASUS Full HD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf6db885-d2ef-456f-9b28-a544fb94480c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .nav-link",
+      "targets": [
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarExample']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'index.html')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "089c0da8-f332-4dd6-ba39-485aaa11a7bc",
