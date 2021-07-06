@@ -1,0 +1,17 @@
+INSTALLATION
+------------
+
+1) Navigate to the browser of your choice. This example will use Google Chrome.
+2) Click on the 3 vertical dots at the upper right corner (to the right of the address bar)
+3) Select "Settings"
+4) Click on "Extensions" at the left-hand-side of the screen
+5) Search for "Selenium IDE" (reference URL: https://github.com/SeleniumHQ/selenium-ide)
+6) Install this Extension
+7) Close your browser
+8) Re-launch your browser
+9) Click on the "Extensions" icon (at the right of the address bar)
+10) Select "Selenium IDE"
+11) Click "Open an Existing Project"
+12) Select the "demoblaze-automation.SIDE" file from the GitHub repository
+13) Click "Run All Tests" (CTRL + Shift + R)
+14) Review the Log screen in the bottom pane to observe whether the tests are completed successfully. Sample output from a successful test run has been included in the Gitlabs repository.

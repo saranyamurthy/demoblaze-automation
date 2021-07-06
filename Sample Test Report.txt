@@ -1,0 +1,220 @@
+Running 'Browse Laptop and Monitor'
+11:28:06
+1.
+open on / OK
+11:28:07
+2.
+setWindowSize on 1920x1032 OK
+11:28:07
+3.
+click on linkText=Laptops OK
+11:28:07
+4.
+click on linkText=Sony vaio i5 OK
+11:28:08
+5.
+click on css=.active > .nav-link OK
+11:28:08
+6.
+click on linkText=Monitors OK
+11:28:08
+7.
+click on linkText=ASUS Full HD OK
+11:28:08
+8.
+click on css=.active > .nav-link OK
+11:28:08
+'Browse Laptop and Monitor' completed successfully
+11:28:09
+Running 'Browse Phones, Laptops and Monitors'
+11:28:09
+1.
+open on / OK
+11:28:09
+2.
+setWindowSize on 1920x1032 OK
+11:28:09
+3.
+click on id=itemc OK
+11:28:09
+4.
+click on id=next2 OK
+11:28:10
+5.
+click on id=prev2 OK
+11:28:10
+6.
+click on linkText=Laptops OK
+11:28:10
+7.
+click on id=next2 OK
+11:28:10
+8.
+click on id=prev2 OK
+11:28:10
+9.
+click on linkText=Monitors OK
+11:28:11
+10.
+click on id=next2 OK
+11:28:11
+11.
+click on id=prev2 OK
+11:28:11
+12.
+click on id=itemc OK
+11:28:11
+13.
+click on linkText=Samsung galaxy s6 OK
+11:28:11
+'Browse Phones, Laptops and Monitors' completed successfully
+11:28:11
+Running 'Create Account - INCOMPLETE - MANUAL ONLY'
+11:28:11
+1.
+open on / OK
+11:28:12
+2.
+setWindowSize on 1936x1048 OK
+11:28:12
+3.
+click on id=signin2 OK
+11:28:12
+4.
+mouseOver on id=signin2 OK
+11:28:12
+5.
+mouseOut on id=signin2 OK
+11:28:13
+6.
+click on id=sign-username OK
+11:28:13
+7.
+store on javascript{Math.random().toString(36).substring(2,8)} with value username OK
+11:28:13
+echo: javascript{Math.random().toString(36).substring(2,8)}
+11:28:13
+'Create Account - INCOMPLETE - MANUAL ONLY' completed successfully
+11:28:13
+Running 'Log In'
+11:28:13
+1.
+open on / OK
+11:28:13
+2.
+setWindowSize on 1936x1048 OK
+11:28:14
+3.
+click on id=login2 OK
+11:28:14
+4.
+Trying to find id=loginusername... OK
+11:28:14
+5.
+type on id=loginusername with value test-qa OK
+11:28:14
+6.
+type on id=loginpassword with value test-qa OK
+11:28:14
+7.
+click on css=#logInModal .btn-primary OK
+11:28:14
+8.
+Trying to find id=nameofuser... OK
+11:28:15
+'Log In' completed successfully
+11:28:15
+Running 'Searching for phones - PLACEHOLDER'
+11:28:15
+1.
+open on https://saranyamurthy.wordpress.com/ OK
+11:28:16
+2.
+setWindowSize on 1936x1048 OK
+11:28:16
+3.
+click on id=s OK
+11:28:16
+4.
+type on id=s with value phone OK
+11:28:18
+5.
+click on id=searchsubmit OK
+11:28:18
+6.
+click on id=s OK
+11:28:18
+7.
+type on id=s with value laptop OK
+11:28:19
+8.
+click on id=searchsubmit OK
+11:28:19
+9.
+click on id=s OK
+11:28:19
+10.
+click on id=s OK
+11:28:20
+11.
+doubleClick on id=s OK
+11:28:20
+12.
+type on id=s with value monitor OK
+11:28:20
+13.
+click on id=searchsubmit OK
+11:28:20
+14.
+close OK
+11:28:20
+'Searching for phones - PLACEHOLDER' completed successfully
+11:28:20
+Running 'Shopping Cart'
+11:28:21
+1.
+open on / OK
+11:28:21
+2.
+setWindowSize on 1936x1048 OK
+11:28:21
+3.
+click on linkText=Samsung galaxy s6 OK
+11:28:21
+4.
+Trying to find linkText=Add to cart... OK
+11:28:21
+6.
+click on id=cartur OK
+11:28:22
+7.
+click on css=.btn-success OK
+11:28:31
+8.
+Trying to find id=name... OK
+11:28:31
+9.
+type on id=name with value Test QA OK
+11:28:32
+10.
+type on id=country with value U.S.A OK
+11:28:32
+11.
+type on id=city with value Houston OK
+11:28:32
+12.
+type on id=card with value 1234567890001111 OK
+11:28:32
+13.
+type on id=month with value July OK
+11:28:32
+14.
+type on id=year with value 2022 OK
+11:28:32
+15.
+click on css=#orderModal .btn-primary OK
+11:28:32
+16.
+click on css=.confirm OK
+11:28:32
+'Shopping Cart' completed successfully
