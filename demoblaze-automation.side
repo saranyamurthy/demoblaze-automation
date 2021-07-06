@@ -658,7 +658,7 @@
       ],
       "value": ""
     }, {
-      "id": "6f61742a-1212-48f0-bba2-46ed0518b579",
+      "id": "842225df-9166-4ba6-b4e4-877f571b96ed",
       "comment": "",
       "command": "click",
       "target": "id=sign-username",
@@ -671,19 +671,19 @@
       ],
       "value": ""
     }, {
-      "id": "90c8a39c-0736-4dae-8ab4-5f88f92d8750",
-      "comment": "store random username",
-      "command": "storeText",
-      "target": "",
+      "id": "63799afa-11d6-4183-8489-b6ccf3b5f2e4",
+      "comment": "Store Random Username",
+      "command": "store",
+      "target": "javascript{Math.random().toString(36).substring(2,8)}",
       "targets": [],
-      "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\".split(\"\").filter(function(e, i, a) { return Math.random() > 0.8 }).join(\"\")"
+      "value": "username"
     }, {
-      "id": "5864c685-8210-44c2-896c-1b1e3f6a34eb",
-      "comment": "type random username",
-      "command": "type",
-      "target": "id=sign-username",
+      "id": "6f61742a-1212-48f0-bba2-46ed0518b579",
+      "comment": "Echo Random Username",
+      "command": "echo",
+      "target": "${username}",
       "targets": [],
-      "value": "random-username"
+      "value": ""
     }]
   }],
   "suites": [{
