@@ -14,4 +14,4 @@ INSTALLATION
 11) Click "Open an Existing Project"
 12) Select the "demoblaze-automation.SIDE" file from the GitHub repository
 13) Click "Run All Tests" (CTRL + Shift + R)
-14) Review the Log screen in the bottom pane to observe whether the tests are completed successfully. Sample output from a successful test run has been included in the Gitlabs repository.
+14) Review the Log screen in the bottom pane to observe whether the tests are completed successfully. Sample output from a successful test run has been included in the 'demoblaze-automation' GitHub repository.
