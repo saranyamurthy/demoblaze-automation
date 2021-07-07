@@ -1,0 +1,689 @@
+Running 'Attempt to submit empty forms'
+15:14:21
+7.
+open on / OK
+15:14:22
+8.
+setWindowSize on 1936x1056 OK
+15:14:22
+9.
+click on linkText=Contact OK
+15:14:22
+10.
+click on css=#exampleModal .btn-primary OK
+15:14:23
+12.
+click on id=cartur OK
+15:14:23
+13.
+click on css=.btn-success OK
+15:14:23
+14.
+click on css=#orderModal .btn-primary OK
+15:14:24
+16.
+click on id=name OK
+15:14:24
+17.
+type on id=name with value S OK
+15:14:24
+18.
+click on css=#orderModal .modal-footer OK
+15:14:24
+19.
+click on css=#orderModal .btn-primary OK
+15:14:24
+21.
+click on id=card OK
+15:14:25
+22.
+type on id=card with value C OK
+15:14:25
+23.
+click on css=#orderModal .btn-primary OK
+15:14:25
+24.
+click on css=.confirm OK
+15:14:25
+25.
+click on id=login2 OK
+15:14:25
+26.
+click on css=#logInModal .btn-primary OK
+15:14:25
+28.
+click on id=loginusername OK
+15:14:26
+29.
+type on id=loginusername with value U OK
+15:14:26
+30.
+click on css=#logInModal .btn-primary OK
+15:14:26
+32.
+click on css=#logInModal span OK
+15:14:26
+33.
+click on id=signin2 OK
+15:14:26
+34.
+Trying to find css=#signInModal .btn-primary... OK
+15:14:27
+36.
+click on id=sign-password OK
+15:14:27
+37.
+type on id=sign-password with value P OK
+15:14:27
+38.
+click on css=#signInModal .btn-primary OK
+15:14:27
+40.
+click on css=#signInModal span OK
+15:14:27
+41.
+Trying to find linkText=Sony vaio i5... Failed:
+15:14:28
+Implicit Wait timed out after 30000ms
+'Attempt to submit empty forms' ended with 1 error(s)
+15:14:58
+Running 'Browse the store's main categories'
+15:14:58
+7.
+open on / OK
+15:14:59
+8.
+setWindowSize on 1936x1048 OK
+15:14:59
+9.
+click on id=itemc OK
+15:14:59
+10.
+click on linkText=Laptops OK
+15:15:00
+11.
+click on id=itemc OK
+15:15:00
+12.
+click on id=next2 OK
+15:15:00
+13.
+click on id=prev2 OK
+15:15:00
+14.
+click on linkText=Laptops OK
+15:15:00
+15.
+click on id=next2 OK
+15:15:01
+16.
+click on id=prev2 OK
+15:15:01
+17.
+click on linkText=Monitors OK
+15:15:01
+18.
+click on id=next2 OK
+15:15:01
+19.
+click on id=prev2 OK
+15:15:01
+20.
+click on id=itemc OK
+15:15:01
+21.
+click on linkText=Samsung galaxy s6 OK
+15:15:01
+'Browse the store's main categories' completed successfully
+15:15:01
+Running 'Click through images using Front and Back Arrows'
+15:15:02
+6.
+open on / OK
+15:15:03
+7.
+setWindowSize on 1936x1056 OK
+15:15:03
+8.
+click on css=.carousel-control-next-icon OK
+15:15:03
+9.
+click on css=.carousel-control-next-icon OK
+15:15:03
+10.
+click on css=.carousel-control-next-icon OK
+15:15:04
+11.
+click on css=.carousel-control-next-icon OK
+15:15:04
+12.
+click on css=.carousel-control-next-icon OK
+15:15:04
+13.
+click on linkText=Previous OK
+15:15:04
+14.
+click on linkText=Previous OK
+15:15:04
+15.
+click on linkText=Previous OK
+15:15:04
+16.
+click on linkText=Previous OK
+15:15:04
+17.
+click on linkText=Previous OK
+15:15:04
+18.
+click on linkText=Previous OK
+15:15:05
+19.
+click on linkText=Previous OK
+15:15:05
+20.
+click on linkText=Previous OK
+15:15:05
+21.
+mouseDownAt on css=.carousel-indicators > li:nth-child(2) with value 20.5,0.125 OK
+15:15:05
+22.
+mouseMoveAt on css=.carousel-indicators > li:nth-child(2) with value 20.5,0.125 OK
+15:15:05
+23.
+mouseUpAt on css=.carousel-indicators > li:nth-child(2) with value 20.5,0.125 OK
+15:15:05
+24.
+click on css=.carousel-indicators > li:nth-child(2) OK
+15:15:05
+25.
+click on css=.carousel-indicators > li:nth-child(3) OK
+15:15:06
+26.
+click on css=.carousel-indicators > li:nth-child(1) OK
+15:15:06
+27.
+click on css=.carousel-indicators > li:nth-child(3) OK
+15:15:06
+28.
+click on css=.carousel-indicators > li:nth-child(2) OK
+15:15:06
+'Click through images using Front and Back Arrows' completed successfully
+15:15:06
+Running 'Clickable Icons (Logo, Store, Home)'
+15:15:06
+6.
+open on / OK
+15:15:07
+7.
+setWindowSize on 1936x1056 OK
+15:15:07
+8.
+click on css=#nava > img OK
+15:15:07
+9.
+click on id=nava OK
+15:15:08
+10.
+click on css=.active > .nav-link OK
+15:15:08
+'Clickable Icons (Logo, Store, Home)' completed successfully
+15:15:08
+Running 'Close various dialogs'
+15:15:09
+6.
+open on / OK
+15:15:10
+7.
+setWindowSize on 1936x1056 OK
+15:15:10
+8.
+click on linkText=Contact OK
+15:15:10
+9.
+click on css=#exampleModal .btn-secondary OK
+15:15:10
+10.
+click on linkText=About us OK
+15:15:11
+11.
+click on css=#videoModal .btn OK
+15:15:11
+12.
+click on id=cartur OK
+15:15:11
+13.
+click on id=login2 OK
+15:15:11
+14.
+Trying to find css=#logInModal .btn-secondary... OK
+15:15:11
+15.
+click on id=signin2 OK
+15:15:12
+16.
+Trying to find css=#signInModal .btn-secondary... OK
+15:15:12
+17.
+click on css=.btn-success OK
+15:15:12
+18.
+mouseOver on css=.btn-success OK
+15:15:12
+19.
+mouseOut on css=.btn-success OK
+15:15:12
+20.
+click on css=#orderModal .btn-secondary OK
+15:15:12
+'Close various dialogs' completed successfully
+15:15:13
+Running 'Contact - Send a Message'
+15:15:13
+6.
+open on / OK
+15:15:14
+7.
+setWindowSize on 1936x1056 OK
+15:15:14
+8.
+click on linkText=Contact OK
+15:15:14
+9.
+click on id=recipient-email OK
+15:15:15
+10.
+type on id=recipient-email with value test-qa@theorem.com OK
+15:15:15
+11.
+type on id=recipient-name with value QA Analyst OK
+15:15:15
+12.
+type on id=message-text with value Hello. This is a great site! OK
+15:15:15
+13.
+click on css=#exampleModal .btn-primary OK
+15:15:15
+15.
+click on linkText=Contact OK
+15:15:16
+16.
+Trying to find id=recipient-email... OK
+15:15:16
+17.
+type on id=recipient-email with value test-qa@theorem.com OK
+15:15:16
+18.
+type on id=recipient-name with value QA Analyst OK
+15:15:16
+19.
+click on css=#exampleModal .modal-body OK
+15:15:16
+20.
+click on id=message-text OK
+15:15:16
+21.
+type on id=message-text with value Some text here which I decided not to send. OK
+15:15:17
+22.
+click on css=#exampleModal .btn-secondary OK
+15:15:17
+23.
+click on linkText=Contact OK
+15:15:17
+24.
+Trying to find id=message-text... Failed:
+15:15:17
+Implicit Wait timed out after 30000ms
+'Contact - Send a Message' ended with 1 error(s)
+15:15:47
+Running 'Create Account - INCOMPLETE - MANUAL TEST ONLY'
+15:15:47
+6.
+open on / OK
+15:15:49
+7.
+setWindowSize on 1936x1048 OK
+15:15:49
+8.
+click on id=signin2 OK
+15:15:49
+9.
+mouseOver on id=signin2 OK
+15:15:50
+10.
+mouseOut on id=signin2 OK
+15:15:50
+11.
+click on id=sign-username OK
+15:15:50
+13.
+store on javascript{Math.random().toString(36).substring(2,8)} with value username OK
+15:15:50
+echo: javascript{Math.random().toString(36).substring(2,8)}
+15:15:50
+'Create Account - INCOMPLETE - MANUAL TEST ONLY' completed successfully
+15:15:50
+Running 'Incorrect Password'
+15:15:50
+7.
+open on / OK
+15:15:52
+8.
+setWindowSize on 1936x1056 OK
+15:15:52
+9.
+click on id=login2 OK
+15:15:52
+10.
+click on id=loginusername OK
+15:15:52
+11.
+type on id=loginusername with value test-qa OK
+15:15:53
+12.
+type on id=loginpassword with value tqa OK
+15:15:53
+13.
+click on css=#logInModal .btn-primary OK
+15:15:53
+15.
+click on id=loginpassword OK
+15:15:59
+16.
+type on id=loginpassword with value tqa123 OK
+15:16:00
+17.
+click on css=#logInModal .btn-primary OK
+15:16:00
+19.
+click on id=loginpassword OK
+15:16:00
+20.
+type on id=loginpassword with value test-qa OK
+15:16:00
+21.
+click on css=#logInModal .btn-primary OK
+15:16:00
+22.
+Trying to find id=logout2... OK
+15:16:00
+'Incorrect Password' completed successfully
+15:16:01
+Running 'Log In'
+15:16:01
+7.
+open on / OK
+15:16:03
+8.
+setWindowSize on 1936x1048 OK
+15:16:03
+9.
+click on id=login2 OK
+15:16:03
+10.
+click on id=loginusername OK
+15:16:03
+11.
+type on id=loginusername with value test-qa OK
+15:16:03
+12.
+type on id=loginpassword with value test-qa OK
+15:16:03
+13.
+click on css=#logInModal .btn-primary OK
+15:16:04
+14.
+click on id=nameofuser OK
+15:16:04
+'Log In' completed successfully
+15:16:04
+Running 'Log Out'
+15:16:04
+6.
+open on / OK
+15:16:05
+7.
+setWindowSize on 1936x1056 OK
+15:16:05
+8.
+Trying to find id=login2... Failed:
+15:16:05
+Implicit Wait timed out after 30000ms
+'Log Out' ended with 1 error(s)
+15:16:36
+Running 'Non-existent Username'
+15:16:36
+7.
+open on / OK
+15:16:37
+8.
+setWindowSize on 1936x1056 OK
+15:16:37
+9.
+Trying to find id=login2... Failed:
+15:16:37
+Implicit Wait timed out after 30000ms
+'Non-existent Username' ended with 1 error(s)
+15:17:08
+Running 'Play "About Us" video - INCOMPLETE - MANUAL ONLY'
+15:17:08
+'Play "About Us" video - INCOMPLETE - MANUAL ONLY' completed successfully
+15:17:10
+Running 'Purchase >1 item'
+15:17:10
+6.
+open on / OK
+15:17:11
+7.
+setWindowSize on 1936x1056 OK
+15:17:11
+8.
+Trying to find linkText=Nokia lumia 1520... OK
+15:17:11
+9.
+Trying to find linkText=Add to cart... OK
+15:17:12
+11.
+click on css=.active > .nav-link OK
+15:17:12
+12.
+click on linkText=Laptops OK
+15:17:16
+13.
+click on linkText=Sony vaio i5 OK
+15:17:16
+14.
+click on css=.active:nth-child(2) OK
+15:17:17
+15.
+click on css=.active:nth-child(2) OK
+15:17:17
+16.
+click on linkText=Add to cart OK
+15:17:17
+18.
+click on css=.active > .nav-link OK
+15:17:17
+19.
+click on linkText=Laptops OK
+15:17:18
+20.
+click on linkText=Sony vaio i7 OK
+15:17:18
+21.
+Trying to find css=.carousel-indicators > li:nth-child(1)... OK
+15:17:18
+22.
+click on css=.active:nth-child(2) OK
+15:17:19
+23.
+click on linkText=Add to cart OK
+15:17:19
+25.
+click on css=.active > .nav-link OK
+15:17:19
+26.
+click on linkText=Monitors OK
+15:17:20
+27.
+click on id=next2 OK
+15:17:20
+28.
+click on linkText=MacBook Pro OK
+15:17:21
+29.
+Trying to find css=.active:nth-child(2)... OK
+15:17:21
+30.
+click on css=.carousel-indicators > li:nth-child(1) OK
+15:17:21
+31.
+click on css=.item > img OK
+15:17:22
+32.
+click on linkText=Add to cart OK
+15:17:22
+34.
+click on id=cartur OK
+15:17:22
+35.
+Trying to find css=.success:nth-child(3) a... OK
+15:17:23
+36.
+click on css=.btn-success OK
+15:17:23
+37.
+click on id=name OK
+15:17:24
+38.
+type on id=name with value test-qa OK
+15:17:24
+39.
+type on id=country with value Houston OK
+15:17:24
+40.
+type on id=city with value T OK
+15:17:25
+41.
+click on css=#orderModal .form-group:nth-child(3) OK
+15:17:25
+42.
+click on id=country OK
+15:17:25
+43.
+type on id=country with value United States OK
+15:17:25
+44.
+type on id=city with value Houston OK
+15:17:25
+45.
+type on id=card with value 1234567890001111 OK
+15:17:26
+46.
+type on id=month with value July OK
+15:17:26
+47.
+type on id=year with value 2022 OK
+15:17:26
+48.
+click on css=#orderModal .btn-primary OK
+15:17:26
+49.
+click on css=.confirm OK
+15:17:26
+'Purchase >1 item' completed successfully
+15:17:27
+Running 'Searching for phones - PLACEHOLDER'
+15:17:27
+6.
+open on https://saranyamurthy.wordpress.com/ OK
+15:17:28
+7.
+setWindowSize on 1936x1048 OK
+15:17:28
+8.
+click on id=s OK
+15:17:28
+9.
+type on id=s with value phone OK
+15:17:31
+10.
+click on id=searchsubmit OK
+15:17:31
+11.
+click on id=s OK
+15:17:31
+12.
+type on id=s with value laptop OK
+15:17:32
+13.
+click on id=searchsubmit OK
+15:17:32
+14.
+click on id=s OK
+15:17:32
+15.
+click on id=s OK
+15:17:33
+16.
+doubleClick on id=s OK
+15:17:33
+17.
+type on id=s with value monitor OK
+15:17:33
+18.
+click on id=searchsubmit OK
+15:17:33
+19.
+close OK
+15:17:34
+'Searching for phones - PLACEHOLDER' completed successfully
+15:17:34
+Running 'Shopping Cart'
+15:17:34
+6.
+open on / OK
+15:17:35
+7.
+setWindowSize on 1936x1048 OK
+15:17:35
+8.
+click on linkText=Samsung galaxy s6 OK
+15:17:35
+9.
+Trying to find linkText=Add to cart... OK
+15:17:35
+11.
+click on id=cartur OK
+15:17:36
+12.
+click on css=.btn-success OK
+15:17:42
+13.
+Trying to find id=name... OK
+15:17:43
+14.
+type on id=name with value Test QA OK
+15:17:43
+15.
+type on id=country with value U.S.A OK
+15:17:43
+16.
+type on id=city with value Houston OK
+15:17:43
+17.
+type on id=card with value 1234567890001111 OK
+15:17:43
+18.
+type on id=month with value July OK
+15:17:43
+19.
+type on id=year with value 2022 OK
+15:17:43
+20.
+click on css=#orderModal .btn-primary OK
+15:17:44
+21.
+click on css=.confirm OK
+15:17:44
+'Shopping Cart' completed successfully
