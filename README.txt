@@ -6,6 +6,12 @@ AUTHOR: Saranya Murthy (GitHub username: saranyamurthy)
 
 DATE CREATED: July 7, 2021
 
+EXECUTIVE SUMMARY
+-----------------
+15 TEST RUNS
+4 FAILURES
+4 DEFECTS
+
 CONTENTS
 --------
 demoblaze-automation.side
@@ -61,3 +67,25 @@ WHAT WOULD I DO DIFFERENTLY NEXT TIME
 -------------------------------------
 Select a different tool, such as Selenium Web Driver. Learn how to use it prior to beginning client engagement. Confirm that it can utilize JavaScript to generate random strings and record the playing of embedded videos.
 
+Select a tool that allows validation of popup content. A limitation of Selenium IDE is that it fails on 'assertAlerts' so the QA Team cannot use this tool to determine whether valid message content ("Please fill out Username and Password") was displayed.
+
+9 OPTIONAL TESTS
+----------------
+The following 9 optional tests have been added to the suite. These are outside of the coverage the client specifically requested. I consider them value-adding tests:
+
+1) Attempt to submit empty forms - FAIL
+2) Click through images using Front and Back Arrows - PASS
+3) Clickable Icons (Logo, Store, Home) - PASS
+4) Close various dialogs - PASS
+5) Contact - Send a Message - FAIL
+6) Incorrect Password - PASS
+7) Log Out - FAIL
+8) Non-existent Username - FAIL
+9) Purchase >1 Item - PASS
+
+4 DEFECTS
+---------
+1) linkText for Phones reads Laptops instead of Phones. See "linkText Issue for future investigation" folder for details
+2) Purchase Date is incorrect when you place an order. It reads July 6th 2021. The expected date is today's date (July 7th 2021). See "High Level Defects" folder for details (Issue 2.png).
+3) Carousel Indicators do not have any effect on individual images. Click on "Phones" -> "Nokia Lumia 1520". See "High Level Defects" folder for details (Issue 3.png).
+4) The "Place Order" button is enabled for an empty cart. When the customer clicks it, no error message is shown. Customers should not be able to place empty orders since this action will have no meaningful result for the end user. See "High Level Defects" folder for details (Issue 4.png and Issue 4 Part 2.png).
