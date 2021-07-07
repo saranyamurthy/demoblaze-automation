@@ -7,8 +7,43 @@
     "id": "ea391bb3-88be-4444-a0ca-74e1284578e5",
     "name": "Log In",
     "commands": [{
+      "id": "abf3fab1-a30d-4b65-a5a8-28e430855a74",
+      "comment": "TEST 2 OF 6 in the 'DEMOBLAZE-AUTOMATION' test suite. ",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2954fbef-65ba-422b-ba3a-1998bec65d9e",
+      "comment": "AUTOMATED TEST NAME: Log In",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ca503f4-8682-4681-a7d2-481128e90141",
+      "comment": "AUTHOR: Saranya Murthy (GitHub username: saranyamurthy)",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e84f670-d3d0-42c7-b080-a7dffd01dba5",
+      "comment": "DATE CREATED: July 7, 2021",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "97cebb10-51d2-4af6-ba96-bf481b621eff",
-      "comment": "README: Username/Password combination 'test-qa' has been created on the demoblaze site. It is a PRECONDITION that this user be retained in order for this test to complete successfully. The Value field in Steps 6 and 7 can be customized to run with an _existing_ user other than 'test-qa'.",
+      "comment": "PURPOSE: This test logs in to the 'demoblaze' (https://www.demoblaze.com/) web site with the Username/Password combination 'test-qa/test-qa.'",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "773f3200-f985-4e4a-ad11-3832400572eb",
+      "comment": "PRECONDITION: The 'test-qa' user already exists on the 'demoblaze' web site. The Value field in Steps 12 and 13 can be customized to run with a different, existing user.",
       "command": "",
       "target": "",
       "targets": [],
@@ -118,6 +153,41 @@
     "id": "8e688223-6ff3-464c-8875-f1423b033982",
     "name": "Shopping Cart",
     "commands": [{
+      "id": "6524e7e7-2315-4ff8-96a7-1716c63870bf",
+      "comment": "TEST 4 OF 6 in the 'DEMOBLAZE-AUTOMATION' test suite",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e97f2fc-000b-4da0-b480-c41440e6c192",
+      "comment": "AUTOMATED TEST NAME: Shopping Cart",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b90caa45-950b-4111-9aec-5520cdfdd884",
+      "comment": "AUTHOR: Saranya Murthy (GitHub username: saranyamurthy)",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "819aee98-f142-4269-bc28-5bc7b0ece130",
+      "comment": "DATE CREATED: July 7, 2021",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "213d1b7b-30e3-4f54-8fad-9535b44bd175",
+      "comment": "PURPOSE: This test adds a \"Samsung Galaxy S6\" phone to the user's shopping cart and simulates a checkout with Name = 'Test QA', Country = 'U.S.A.', City = 'Houston', Card = '1234567890001111', Month = 'July' and Year = '2022'. The test confirms the appearance of an \"Order Placed\" message.",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "a35924cb-d330-42df-a3f4-733633985511",
       "comment": "",
       "command": "open",
@@ -317,10 +387,38 @@
     }]
   }, {
     "id": "7b99d8b3-69e6-4b24-b5b7-89f8ca26623e",
-    "name": "Create Account - INCOMPLETE - MANUAL ONLY",
+    "name": "Create Account - INCOMPLETE - MANUAL TEST ONLY",
     "commands": [{
+      "id": "6e12f64f-1c87-4df7-bd32-907c9a86a6c7",
+      "comment": "TEST 1 OF 6 in the 'DEMOBLAZE-AUTOMATION' test suite",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f10a788-91e2-4a43-b03d-b2e2ae5444d7",
+      "comment": "AUTOMATED TEST NAME: Create Account - INCOMPLETE - MANUAL TEST ONLY",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79953422-e910-4756-8d12-9f5675398c14",
+      "comment": "AUTHOR: Saranya Murthy (GitHub username: saranyamurthy)",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29bfea6d-416a-4386-bd5d-614a02cde90c",
+      "comment": "DATE CREATED: July 7, 2021",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "aaf7a8f5-e0a1-40ed-8d58-da2f23231e5a",
-      "comment": "README: Test incomplete, due to inability to generate random username/password combinations. Recommend that this be tested manually. For more details, consult README.",
+      "comment": "PURPOSE: This test attempts to automate the creation of a user account on the DEMOBLAZE web site (https://www.demoblaze.com/). The test is INCOMPLETE due to the inability to randomize the 2 input fields (username and password). For more details, consult the project README.",
       "command": "",
       "target": "",
       "targets": [],
@@ -404,6 +502,13 @@
       ],
       "value": ""
     }, {
+      "id": "d3e86201-17ad-4024-bf21-97049d6b3a1c",
+      "comment": "The JavaScript function in Step 13 generates a random string of letters and numbers that will serve as a username. It can be adapted for Selenium Web Driver or similar tools. There was a limitation with getting it to work in Selenium IDE.Therefore, the recommendation is to test this manually.",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "63799afa-11d6-4183-8489-b6ccf3b5f2e4",
       "comment": "Store Random Username",
       "command": "store",
@@ -411,10 +516,17 @@
       "targets": [],
       "value": "username"
     }, {
-      "id": "6f61742a-1212-48f0-bba2-46ed0518b579",
+      "id": "0bee714c-fa75-4a39-b19e-0b555e957980",
       "comment": "Echo Random Username",
       "command": "echo",
       "target": "${username}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f61742a-1212-48f0-bba2-46ed0518b579",
+      "comment": "TODO: Add a similar version of steps 13 and 14 to simulate creation of a random password.",
+      "command": "",
+      "target": "",
       "targets": [],
       "value": ""
     }]
@@ -422,15 +534,43 @@
     "id": "21315e92-0143-4128-94e0-c19b37e601a2",
     "name": "Searching for phones - PLACEHOLDER",
     "commands": [{
-      "id": "8407a71b-4f6c-4f30-bc30-640a9a5bf3b2",
-      "comment": "Contains the commands to search for the keywords \"phone\", \"laptop\" and \"monitor\" on a different web site. This test can be adapted when the Search functionality has been added to the demoblaze web site.i",
+      "id": "1db9da83-217b-405e-b0ad-e8a07c018d3e",
+      "comment": "TEST 5 OF 6 in the 'DEMOBLAZE-AUTOMATION' test suite",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "974522f8-1e05-4e81-8869-c9e73e90e19b",
+      "comment": "AUTOMATED TEST NAME: Searching for phones - PLACEHOLDER",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcdb355d-f023-42cd-82e6-5d79e39f676f",
+      "comment": "AUTHOR: Saranya Murthy (GitHub username: saranyamurthy)",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12dc9496-7dcf-4b75-bbe2-576696f84ba8",
+      "comment": "DATE CREATED: July 7, 2021",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edeb16a9-6ea6-4993-bf6a-b87c03a40295",
+      "comment": "PURPOSE: This test serves as a PLACEHOLDER until the 'Search for phones' functionality is implemented on the demoblaze web site (https://www.demoblaze.com/). It contains the commands to search for the keywords \"phone\", \"laptop\" and \"monitor\" on a different web site (www.saranyamurthy.com).",
       "command": "",
       "target": "",
       "targets": [],
       "value": ""
     }, {
       "id": "ce1a9ccd-0173-4573-9bbf-5cf5c5d6fec4",
-      "comment": "",
+      "comment": "PURPOSE: This test can be adapted when the Search functionality has been added to the demoblaze web site.",
       "command": "open",
       "target": "https://saranyamurthy.wordpress.com/",
       "targets": [],
@@ -605,8 +745,43 @@
     "id": "1a6cf847-df15-4c60-9f94-d17ca6b3c5db",
     "name": "Browse the store's main categories",
     "commands": [{
-      "id": "d6d2c6e2-96a2-4751-a248-2f59f87413a2",
-      "comment": "README: This test browses the Phones, Laptops and Monitors. It concludes by clicking on the \"Samsung galaxy s6\" phone to view further details on that specific product. LIMITATION: could not determine why the linkText for \"Phones\" is not displayed in step 5. Refer to the 2 screenshots (PNG) for details.",
+      "id": "8364e3a9-0ef8-403e-a27f-3b532d49e893",
+      "comment": "TEST 3 OF 6 in the 'DEMOBLAZE-AUTOMATION' test suite",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7ac1312-db32-4b85-ac57-d893646cc615",
+      "comment": "AUTOMATED TEST NAME: Browse the store's main categories",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "511dc279-e574-4598-8339-1fa7255758f4",
+      "comment": "AUTHOR: Saranya Murthy (GitHub username: saranyamurthy)",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a9cabba-2d45-4ad5-a52d-bb78a01103db",
+      "comment": "DATE CREATED: July 7, 2021",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db4810c5-561d-483e-aac0-6f4080af73f4",
+      "comment": "PURPOSE: This test browses the 3 categories (Phones, Laptops and Monitors) on the DEMOBLAZE web site (https://www.demoblaze.com/). It concludes by clicking on the \"Samsung galaxy s6\" phone to view further details on that specific product.",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59936f7e-a410-4344-803f-1baefa562278",
+      "comment": "LIMITATION: Could not determine why the linkText for \"Phones\" is not displayed in step 11, since that is the category being viewed. Client decided to investigate after prototype was complete.",
       "command": "",
       "target": "",
       "targets": [],
@@ -816,6 +991,59 @@
         ["xpath=//h4/a", "xpath:position"],
         ["xpath=//a[contains(.,'Samsung galaxy s6')]", "xpath:innerText"]
       ],
+      "value": ""
+    }]
+  }, {
+    "id": "0e89c08c-5282-415d-accc-977f70c3d6c6",
+    "name": "Play \"About Us\" video - INCOMPLETE - MANUAL ONLY",
+    "commands": [{
+      "id": "22ad6378-e69d-46a6-a3dc-6f79191faf4f",
+      "comment": "TEST 6 OF 6 in the 'DEMOBLAZE-AUTOMATION' test suite",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2a250cd-fd79-4e6e-869c-f4b3d9adddaa",
+      "comment": "AUTOMATED TEST NAME: Play \"About Us\" video - INCOMPLETE - MANUAL ONLY",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "610c355c-93da-4792-99c5-ffd23200305d",
+      "comment": "AUTHOR: Saranya Murthy (GitHub username: saranyamurthy)",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ed3d689-e752-4cb5-a004-3ddd1e8f8ce5",
+      "comment": "DATE CREATED: July 7, 2021",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c223d2e5-509d-4632-9663-defdafeb0944",
+      "comment": "PURPOSE: This test is a PLACEHOLDER. Playing a video could not be simulated using Selenium IDE.  It is recommended that this be tested manually. The following code snippet is expected to achieve the desired result using Selenium Web Driver.",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4cd6b63-0d2b-4ea7-8ea3-61e5b24459cd",
+      "comment": "SOURCE OF CODE SNIPPET: https://advancedtestautomation.blogspot.com/2016/07/test-video-using-selenium-webdriver.html",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb488e91-a128-439b-baa4-d3555e6caace",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],
